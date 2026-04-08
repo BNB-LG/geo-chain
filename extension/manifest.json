@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "GEO-Chain - AI Search Visibility",
+  "version": "0.1.0",
+  "description": "See GEO Scores for meme projects on four.meme",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "https://four.meme/*",
+    "https://*.four.meme/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://four.meme/*",
+        "https://*.four.meme/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "GEO-Chain"
+  },
+  "icons": {}
+}

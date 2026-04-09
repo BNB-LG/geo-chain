@@ -203,7 +203,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Links
 
-- **Live Demo**: [geo-chain.vercel.app](https://geo-chain.vercel.app)
+- **Live Site**: [geo-chain.vercel.app](https://geo-chain.vercel.app)
+- **Demo**：[fourmeme-hackathon-plan.pages.dev/demo](https://fourmeme-hackathon-plan.pages.dev/demo)
 - **Twitter**: [@Melo_Tsai](https://x.com/Melo_Tsai)
 - **DoraHacks**: [BUIDL Submission](https://dorahacks.io/hackathon/fourmemeaisprint)
 
